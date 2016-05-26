@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 
 require "bundler/setup"
-require "skip_exception_notifing"
+require "skip_exception_notifying"
 
 require "pry"
 Pry.start
