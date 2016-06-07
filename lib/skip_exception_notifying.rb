@@ -17,7 +17,7 @@ end
 
 begin
   require 'exception_notification'
-  ExceptionNotifier.ignore_if { |exception| exception.skip_notifiyng? }
+  ExceptionNotifier.ignore_if { |exception| exception.skip_notifying? }
 rescue LoadError => e
   raise(e) unless e['exception_notification']
 end
