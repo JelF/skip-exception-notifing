@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "skip-exception-notifying"
-  spec.version       = "0.1.0"
+  spec.version       = "0.2.0"
   spec.authors       = ["Alexander Smirnov"]
   spec.email         = ["begdory4@gmail.com"]
 

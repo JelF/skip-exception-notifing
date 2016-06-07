@@ -1,10 +1,10 @@
 class Exception
-  def skip_notifiyng!
-    @skip_notifiyng = true
+  def skip_notifying!
+    @skip_notifying = true
   end
 
-  def skip_notifiyng?
-    !!@skip_notifiyng
+  def skip_notifying?
+    !!@skip_notifying
   end
 end
 
