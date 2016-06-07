@@ -1,6 +1,13 @@
 class Exception
+  def self.skip_notifying
+    yield
+  rescue self => e
+    raise(e.skip_notifying!)
+  end
+
   def skip_notifying!
     @skip_notifying = true
+    self
   end
 
   def skip_notifying?
